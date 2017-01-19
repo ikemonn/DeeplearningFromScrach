@@ -36,3 +36,5 @@ y2 = tf(x)
 plt.plot(x, y)
 plt.plot(x, y2)
 plt.show()
+
+# てすと
