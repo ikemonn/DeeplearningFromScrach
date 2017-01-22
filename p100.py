@@ -8,7 +8,8 @@ def numerical_diff(f, x):
     return (f(x+h) - f(x-h)) / (2*h)
 
 def function_1(x):
-    return 0.01 * x ** 2 + 0.1 * x
+    return
+    # return 0.01 * x ** 2 + 0.1 * x
 
 def tangent_line(f, x):
     # 傾き(f(a))
@@ -29,12 +30,12 @@ print(y)
 plt.xlabel('x')
 plt.ylabel('f(x)')
 
-tf = tangent_line(function_1, 5)
-print(tf)
-y2 = tf(x)
+# tf = tangent_line(function_1, 5)
+# print(tf)
+# y2 = tf(x)
 
 plt.plot(x, y)
-plt.plot(x, y2)
+# plt.plot(x, y2)
 plt.show()
 
 # てすと
